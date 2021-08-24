@@ -1,5 +1,7 @@
 /*
-Project Euler problem 1
+Project Euler Problem 1
+Nick Kaparinos
+2021
 */
 
 #include <iostream>
