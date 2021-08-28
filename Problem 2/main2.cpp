@@ -14,7 +14,7 @@ int main(int argc, char* argv[]){
     const int limit = 4000000;
     int fibonacciNumber = 3;
 
-    while (fibonacciNumber < limit) {
+    while (fibonacciNumber <= limit) {
         // Calculate new fibonacci number 
         fibonacciNumber = previousTerms[0] + previousTerms[1];
         
