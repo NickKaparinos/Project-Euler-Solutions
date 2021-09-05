@@ -22,7 +22,7 @@ bool is_palindrome(int number) {
 
 }
 
-int main() {
+int main(int argc, char* argv[]) {
     int result = -1;
 
     for (int i = 999; i > 1; i--) {
@@ -39,7 +39,6 @@ int main() {
             }
         }
     }
-    cout << result << endl;
 
-    return 0;
+    cout << result << endl;
 }

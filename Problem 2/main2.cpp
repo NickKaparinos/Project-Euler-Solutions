@@ -28,6 +28,5 @@ int main(int argc, char* argv[]){
         previousTerms[1] = fibonacciNumber;
     }
 
-    // Result and execution time
-    cout << "Result : " << evenSum << " !" << endl;
+    cout << "Result: " << evenSum << endl;
 }

@@ -9,7 +9,7 @@ Nick Kaparinos
 using namespace std;
 
 
-int main() {
+int main(int argc, char* argv[]) {
 	bool found = false;
 	int i = 21;
 

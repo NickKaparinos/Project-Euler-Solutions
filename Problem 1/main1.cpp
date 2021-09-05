@@ -7,7 +7,7 @@ Nick Kaparinos
 
 using namespace std;
 
-int main(int argc, char *argv[]){
+int main(int argc, char* argv[]){
 	const int N = 1000;
 	int sum = 0;
 	for (int i = 0; i < N; i++){
@@ -15,5 +15,5 @@ int main(int argc, char *argv[]){
 			sum += i;
 		}
 	}
-	cout << "Result : " << sum << " !" << endl;
+	cout << "Result: " << sum << endl;
 }
