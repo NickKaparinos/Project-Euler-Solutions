@@ -29,5 +29,5 @@ int main(int argc, char* argv[]){
     }
 
     // Result and execution time
-    cout << "Result = " << evenSum << " !" << endl;
+    cout << "Result : " << evenSum << " !" << endl;
 }

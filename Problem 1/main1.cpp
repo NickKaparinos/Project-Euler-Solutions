@@ -15,5 +15,5 @@ int main(int argc, char *argv[]){
 			sum += i;
 		}
 	}
-	cout << "Result = " << sum << " !" << endl;
+	cout << "Result : " << sum << " !" << endl;
 }

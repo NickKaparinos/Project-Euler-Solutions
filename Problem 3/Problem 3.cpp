@@ -44,5 +44,5 @@ unsigned long long findLargestFactor(unsigned long long number) {
 }
 
 int main(int argc, char* argv[]) {
-	cout << "Result = " << findLargestFactor(600851475143) << " !" << endl;
+	cout << "Result : " << findLargestFactor(600851475143) << " !" << endl;
 }
