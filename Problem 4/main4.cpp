@@ -3,8 +3,9 @@ Project Euler Problem 4
 Nick Kaparinos
 2021
 */
+
 #include <iostream>
-#include <string> 
+#include <string>
 
 using namespace std;
 
@@ -19,10 +20,9 @@ bool is_palindrome(int number) {
     }
 
     return true;
-
 }
 
-int main(int argc, char* argv[]) {
+int main(int argc, char *argv[]) {
     int result = -1;
 
     for (int i = 999; i > 1; i--) {

@@ -13,7 +13,7 @@ long calculateSumOfSquares(int N) {
     long result = 0;
     for (int i = 1; i <= N; i++) {
         result += pow(i, 2);
-        }
+    }
     return result;
 }
 
@@ -23,11 +23,10 @@ long calculatesquareOfSum(int N) {
         result += i;
     }
 
-    return pow(result,2);
-
+    return pow(result, 2);
 }
 
-int main(int argc, char* argv[]) {
+int main(int argc, char *argv[]) {
     int N = 100;
 
     // Calculate sum of squares
