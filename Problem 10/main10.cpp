@@ -10,7 +10,7 @@ Nick Kaparinos
 void primeCheck(std::vector<unsigned long int> *primes, unsigned long int number);
 
 int main(int argc, char *argv[]) {
-    unsigned long int n = 2000000; //2000000;
+    unsigned long int n = 2000000;
     std::vector<unsigned long int> primes{2};
 
     // Find primes below 2 million
